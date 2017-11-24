@@ -59,11 +59,44 @@
 			<a data-fancybox="gallery" href="img/4thwall/0010.jpg"><img src="img/4thwall/0006.jpg"></a>
 		</section>
 
-		<?php include("inc/footer2.php"); ?>
+		<footer class="case">
+	<div class="container">
+		<div class="divide">
+			<span class="footer-email"><a href="mailto:hello@ninety.co">hello@ninety.co</a></span>
+		</div>
+		<div class="divide">
+			<span class="footer-address">
+				39 Royal Avenue,<br>
+				Belfast,<br>
+				BT1 4ER
+			</span>
+		</div>
+		<div class="divide">
+			<div class="footer-social">
+				<a href="http://facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				<a href="http://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="http://vimeo.com"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
 
 	</div><!-- Pushy -->
 
-	<?php include("inc/scripts.php"); ?>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+<script src="js/pushy.min.js"></script>
+<script src="js/jquery.vide.min.js"></script>
+
+<script>
+	jQuery.fn.verticalAlign = function () {
+	  return this
+	    .css("margin-top",($(this).parent().height() - $(this).height())/2 + 'px' )
+	};
+
+	$('.content').verticalAlign();
+</script>
 
 </body>
 </html>
