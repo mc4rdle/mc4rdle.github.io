@@ -146,6 +146,7 @@ footer.home {
 footer.home a {
 	font-family: "Lora", serif;
 	font-size: 17px;
+	cursor: not-allowed;
 	font-weight: 500;
 	font-style: italic;
 	display: block;
