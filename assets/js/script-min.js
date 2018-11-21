@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".home-hero .order-now").hover(function(){$(".home-hero img").css("transform","scale(1.05)")},function(){$(".home-hero img").css("transform","scale(1)")})});
